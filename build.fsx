@@ -12,7 +12,7 @@
 let gitOwner = "davidglassborow"
 let gitHome = "https://github.com/" + gitOwner
 // The name of the project on GitHub
-let gitProjectName = "IntroToFSharp"
+let gitProjectName = "fsharp-for-beginners"
 // The name of the GitHub repo subdirectory to publish slides to
 let gitSubDir = ""
 
