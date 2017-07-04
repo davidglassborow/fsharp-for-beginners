@@ -18,9 +18,11 @@
 
 ## Issues with OO
 
+- Packets of hidden state, hard to reason about (limits of our brain)
 - The problem with object-oriented languages is they’ve got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.
 - After 20 years of OO, I've become disillusioned (C++,Java,Delphi,C#,Ruby)
-- Packets of hidden state, hard to reason about
+- Spagetti code & Little reuse
+- Lots of coupling (coupling data and behaviour)
 
 ---
 
@@ -31,6 +33,7 @@
 - More powerful, program at a higher level
 - Think differently, apply it to other langauges
 - Pit of success
+- REPL
 
 --- 
 
@@ -139,6 +142,7 @@ _Controlling complexity is the essence of computer programming._
 
 ### Composibilty
 
+- Functional means using functions as first class (adding them together, passing them around)
 - Currying
 - Parametric
 - Monadic
@@ -250,3 +254,4 @@ CSV,JSON,XML,HTML: [FSharp.data](https://fsharp.github.io/FSharp.Data/index.html
 - http://connelhooley.uk/blog/2017/04/30/f-sharp-to-c-sharp
 - https://channel9.msdn.com/events/Build/2017/T6064
 - [F# koans](https://github.com/ChrisMarinos/FSharpKoans/)
+- [Video: F# for C# developers](https://vimeo.com/131640714)
