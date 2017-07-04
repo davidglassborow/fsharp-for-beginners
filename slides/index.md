@@ -6,9 +6,8 @@
 
 ***
 
-## Why F#?
+## F#?
 
-- After 20 years of OO, I've become disillusioned (C++,Java,C#,Ruby)
 - ML (1974) / OCaml derivative with strong theoretical background 
 - Open source since 2005: [FSharp.org](http://fsharp.org) & [Github](https://github.com/fsharp/)
 - Functional First but very pragmatic
@@ -17,11 +16,21 @@
 
 ---
 
+## Issues with OO
+
+- The problem with object-oriented languages is they’ve got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.
+- After 20 years of OO, I've become disillusioned (C++,Java,Delphi,C#,Ruby)
+- Packets of hidden state, hard to reason about
+
+---
+
 ## Advantages
 
 - Manage complexity
 - Less stressful to code
 - More powerful, program at a higher level
+- Think differently, apply it to other langauges
+- Pit of success
 
 --- 
 
@@ -55,6 +64,9 @@
 - fun x -> x
 - record / class / DU
 - linear
+- destructuring
+- |> and >>
+- Partial application
 
 ---
 
@@ -224,11 +236,17 @@ CSV,JSON,XML,HTML: [FSharp.data](https://fsharp.github.io/FSharp.Data/index.html
 
 ***
 
-### Find out more
+## Find out more
+
+### FP
+
+- [Rich Hickey](https://changelog.com/posts/rich-hickeys-greatest-hits)
+- [John Carmack](http://www.altdev.co/2012/04/26/functional-programming-in-c/)
+
+### F#
 
 - http://fsharpforfunandprofit.com
 - http://connelhooley.uk/blog/2017/04/10/f-sharp-guide
 - http://connelhooley.uk/blog/2017/04/30/f-sharp-to-c-sharp
 - https://channel9.msdn.com/events/Build/2017/T6064
-
-- [John Carmack](http://www.altdev.co/2012/04/26/functional-programming-in-c/)
+- [F# koans](https://github.com/ChrisMarinos/FSharpKoans/)
